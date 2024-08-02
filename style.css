@@ -86,3 +86,8 @@ header {
         transform: ${({ isOpen }) => isOpen ? 'rotate(45deg) translate(-5px, -6px)' : 'none'};
     }
 }
+ 
+.menu-icon {
+    width: 20px; 
+    height: auto;
+}
