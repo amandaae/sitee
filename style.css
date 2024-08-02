@@ -89,7 +89,7 @@ header {
 
 
 .container__imagem {
-    width: 10px;
+    : 10px;
     position: relative;
     top: 10px;
     left: 10px;
