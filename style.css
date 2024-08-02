@@ -54,6 +54,7 @@ header {
 .container__imagem{
     width: 50px;
 }
+
 @media (max-width: 768px) {
     .menu {
         display: none;
