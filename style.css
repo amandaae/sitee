@@ -91,3 +91,10 @@ header {
     width: 20px; 
     height: auto;
 }
+
+.logotipo{
+    width: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
