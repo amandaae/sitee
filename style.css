@@ -55,6 +55,11 @@ header {
     width: 15px;
     height: auto; /* Ajustado para manter a proporção */
 }
+.Logotipo {
+    width: 20px;
+    height: auto;
+}
+
 
 @media (max-width: 768px) {
     .menu {
