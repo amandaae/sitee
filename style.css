@@ -52,7 +52,7 @@ header {
 }
 
 .container__imagem {
-    width: 20%;
+    width: 15px;
     height: auto; /* Ajustado para manter a proporção */
 }
 
