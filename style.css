@@ -68,25 +68,3 @@ header {
         left: 0;
         background-color: #333;
     }
-
-    .menu.active {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: flex;
-    }
-
-    .bar:nth-child(1) {
-        transform: ${({ isOpen }) => isOpen ? 'rotate(-45deg) translate(-5px, 6px)' : 'none'};
-    }
-
-    .bar:nth-child(2) {
-        opacity: ${({ isOpen }) => isOpen ? 0 : 1};
-    }
-
-    .bar:nth-child(3) {
-        transform: ${({ isOpen }) => isOpen ? 'rotate(45deg) translate(-5px, -6px)' : 'none'};
-    }
-}
- 
