@@ -61,7 +61,7 @@ header {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 100px) {
     .menu {
         display: none;
         flex-direction: column;
