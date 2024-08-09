@@ -53,7 +53,7 @@ header {
 
 .container__imagem {
     width: 50px;
-    height: auto; /* Ajustado para manter a proporção */
+    height: auto; 
 }
 .Logotipo {
     width: 20px;
@@ -67,7 +67,7 @@ header {
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 50px; /* Ajuste conforme necessário */
+        top: 10px; 
         left: 0;
         background-color: #333;
     }
