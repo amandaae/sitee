@@ -57,7 +57,7 @@ header {
 }
 .Logotipo {
     width: 20px;
-    height: auto;
+    height: flex;
 }
 
 
