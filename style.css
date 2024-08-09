@@ -58,7 +58,7 @@ header {
     .menu {
         display: none;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         position: absolute;
         top: 10px;
         left: 0;
@@ -86,11 +86,3 @@ header {
     }
 }
  
-
-
-.container__imagem {
-    : 10px;
-    position: relative;
-    top: 10px;
-    left: 10px;
-}
