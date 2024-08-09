@@ -60,7 +60,7 @@ header {
     .menu {
         display: none;
         flex-direction: column;
-        width: 100px;
+        width: 10px;
         position: absolute;
         top: 50px; /* Ajuste conforme necessário */
         left: 0;
