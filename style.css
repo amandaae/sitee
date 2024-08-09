@@ -6,9 +6,9 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #ecd5d5;
     color: #2106bb;
-    padding: 5px 5px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@ header {
 .bar {
     width: 10px;
     height: 3px;
-    background-color: #fff;
+    background-color: #ecd5d5;
     margin: 3px 0;
     transition: 0.4s;
 }
