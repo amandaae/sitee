@@ -1,3 +1,19 @@
+
+O código CSS que você forneceu tem alguns pontos que podem ser ajustados:
+
+Seletores e Regras:
+
+O seletor @media (max-width: 10px) pode não ser útil, já que 10px é muito pequeno para a maioria dos dispositivos. Considere aumentar esse valor para algo como 768px para dispositivos móveis.
+Fechamento do Bloco @media:
+
+O bloco @media não está fechado. Adicione uma chave } para fechá-lo.
+Classe container__imagem:
+
+Se o objetivo é redimensionar imagens, a propriedade height e width podem precisar de valores em pixels (px), porcentagem (%), ou outros valores relativos que se ajustem ao layout desejado.
+Aqui está o código ajustado:
+
+css
+Copiar código
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -51,20 +67,19 @@ header {
     color: yellow;
 }
 
-.container__imagem{
+.container__imagem {
     width: 20%;
-    height: 20%;
+    height: auto; /* Ajustado para manter a proporção */
 }
 
-
-
-@media (max-width: 10px) {
+@media (max-width: 768px) {
     .menu {
         display: none;
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 10px;
+        top: 50px; /* Ajuste conforme necessário */
         left: 0;
         background-color: #333;
     }
+}
